@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Feliz cumpleaños preciosa</title>
+<link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+	<div class="image-container">
+        <img src="Img/FELIZ CUMPLEANOS.png" alt="Feliz Cumpleaños Preciosa"/>
+    </div>
+	<br>
+	<center><div class="Container">
+	<h1 id="TQM">Te quiero mucho muchoo</h1>
+		<p id="TQM2">Hice este pequeño detalle para ti, espero que te guste.</p>
+	</div></center>
+	<div class="image-container">
+        <img src="Img/Collag.png" alt="Feliz Cumpleaños Preciosa"/>
+    </div>
+	
+	<div class="image-container">
+        <img src="Img/Carta.png" alt="Feliz Cumpleaños Preciosa">
+        <div class="Cart">
+	        <div class="envelope-wrapper">
+	            <div class="envelope">
+	                <div class="letter">
+	                    <div class="text">
+	                        <strong>Mi amada Alison.</strong>
+	                        <p>
+	                            No te puedes llegar a imaginar lo feliz que soy de estar contigo, 
+	                            eres una niña espectacular, te quiero conmigo para toda la vida. Disfruto 
+	                            muchisimo todos los momentos que compartimos juntos. Con mucho amor. 
+	                            Tu futuro esposo.
+	                        </p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="heart"></div>
+	        </div>
+	    </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
